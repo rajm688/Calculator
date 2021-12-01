@@ -1,0 +1,32 @@
+.main{
+    border: solid;
+    width: 40%;
+    margin: 50px;
+    background-color: rgb(211, 211, 211);
+    border-radius: 5px;
+}
+.btn:hover{
+    background-color:rgb(163, 163, 163); ;
+}
+#result{
+    background-color: rgb(163, 163, 163);
+    border: none;
+}
+#screen{
+    height: 40px;
+    width: 100%;
+    border: solid;
+    margin-top: 10px;
+    background-color: rgb(163, 163, 163);
+    border-radius: 5px;
+
+}
+.buttons{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+#equal{
+    grid-column: 3/5;
+    margin: 10px;
+}
